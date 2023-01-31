@@ -2,15 +2,20 @@ import { ThemeProvider } from '@emotion/react';
 import theme from './styles';
 import { Header, ListGames } from './components';
 import { Paper } from '@mui/material';
+import 'normalize.css';
+import Main from './components/Main';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Paper>
+    // <ThemeProvider theme={theme}>
+      // <Paper>
+      <>
         <Header />
-        <ListGames />
-      </Paper>
-    </ThemeProvider>
+        <Main />
+      </>
+        // {/* <ListGames /> */}
+      // </Paper>
+    // </ThemeProvider>
   );
 }
 

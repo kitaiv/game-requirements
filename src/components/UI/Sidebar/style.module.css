@@ -1,0 +1,29 @@
+.sidebar{
+    max-width: 150px;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border-right: 2px solid #1C1836;
+    overflow: hidden;
+}
+
+.item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+} 
+
+.item:hover{
+    background-color: #7939FF;
+    transition: all 0.5s;
+}
+
+.item button{
+    
+    font-size: 16px;
+    color: #fff;
+}
