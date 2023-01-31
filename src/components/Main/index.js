@@ -5,6 +5,7 @@ const Main = () => {
     return ( 
         <section className={styles.main}>
             <Sidebar />
+            <div></div>
         </section>    
     );
 }

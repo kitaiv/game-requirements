@@ -14,7 +14,6 @@ const Header = () => {
             <Container maxWidth='xl'>
                 <div className={styles.inner}>
                     <div>
-                        <Burger height={'34px'}/>
                         <Link to="/"><img src={logo} alt="" /></Link>
                     </div>
                     <div className={styles.buttons}>
