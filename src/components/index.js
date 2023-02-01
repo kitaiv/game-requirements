@@ -1,7 +1,7 @@
-import Header from "./Header";
-import ListGames from "./ListGames";
+import GameCard from "./GameCard";
+import GameModal from "./GameModal";
 
 export {
-    Header,
-    ListGames
+    GameCard,
+    GameModal
 }
