@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { memo, useEffect } from 'react';
 import {
   Card,
   CardCover,
@@ -16,7 +16,7 @@ import DateRangeOutlinedIcon from '@mui/icons-material/DateRangeOutlined';
 import GradeOutlinedIcon from '@mui/icons-material/GradeOutlined';
 import { ErrorBoundary } from 'react-error-boundary';
 
-import { validateGenres, validateGameWebsiteUrl } from '../helpers/utils';
+import { validateGenres, validateGameWebsiteUrl, validateDate } from '../helpers/utils';
 
 import ErrorFallback from './ErrorFallback';
 
@@ -34,26 +34,23 @@ const Item = styled(Sheet)(({ theme }) => ({
 
 function GameCard({
   cardInfo,
-  handleOpen,
-  open,
-  handleActiveCardInfo
 }) {
-  const {released, website, rating, genres, background_image, name} = cardInfo
 
+  const { released, website, rating, genres, background_image, name } = cardInfo
+  
   useEffect(() => {
-    if (open)
-      handleActiveCardInfo(cardInfo);
+    console.log(cardInfo.name, 'updated')
+  }, [cardInfo]);
 
-    return () => handleActiveCardInfo({});
-  }, [open]);
 
-  const genresStr = validateGenres(genres);
+
+  const genresStr = validateGenres(genres)
   const websiteValidatedStr = validateGameWebsiteUrl(website)
+
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <Card
         sx={{ minHeight: '420px', width: 340, cursor: 'pointer' }}
-        onClick={handleOpen}
       >
         <CardCover sx={{overflow: 'hidden'}}>
           <img
@@ -79,7 +76,7 @@ function GameCard({
               <Item>
                 <DateRangeOutlinedIcon />
                 <Typography sx={{ color: '#E4E4E4', marginLeft: '.5rem' }}>
-                  {released}
+                  {validateDate(released)}
                 </Typography>
               </Item>
             </Grid>
@@ -128,4 +125,4 @@ function GameCard({
   );
 }
 
-export default GameCard;
+export default memo(GameCard);

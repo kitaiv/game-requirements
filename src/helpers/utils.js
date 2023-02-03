@@ -17,3 +17,7 @@ export function removeHtmlTagsFromText(str) {
         
     return str.replace( /(<([^>]+)>)/ig, '');
 }
+
+export function validateDate(date){
+    return date.replaceAll('-', '/')
+}
