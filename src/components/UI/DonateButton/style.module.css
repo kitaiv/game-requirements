@@ -1,0 +1,10 @@
+.donate__button{
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
+    padding: 10px 8px;
+    background-color: #7939FF;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 30px;
+}

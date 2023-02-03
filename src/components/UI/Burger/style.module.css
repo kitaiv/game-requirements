@@ -1,0 +1,6 @@
+.burger{
+    position: absolute;
+    top: 30px;
+    left: 36px; 
+    cursor: pointer;
+}
