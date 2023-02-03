@@ -30,11 +30,10 @@ export async function getData(name = 'games'){
 
 export async function getTestData(){
     try{
-        const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
+        // const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
         const res = axios.get('/assets/data/games.json')
             .then(res => res.data)
             .catch(error => console.log(error))
-        await sleep(2000)
         return await res;
     }catch (error){
         throw new Error(error)

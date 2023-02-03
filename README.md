@@ -1,1 +1,1 @@
-##Game requirements
+##GameReqs

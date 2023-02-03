@@ -1,31 +1,48 @@
-import { createTheme } from "@mui/material";
+import { CssVarsProvider, extendTheme } from '@mui/joy/styles';
 
-const overrides = {
-  palette: {
-    mode: "dark",
-    primary: {
-        main: "#000"
+const gamereqsTheme = extendTheme({
+  colorSchemes: {
+    light: {
+      palette: {
+        success: {
+          solidBg: '#2DA44E',
+          solidHoverBg: '#2C974B',
+          solidActiveBg: '#298E46',
+        },
+        neutral: {
+          outlinedBg: '#F6F8FA',
+          outlinedHoverBg: '#F3F4F6',
+          outlinedActiveBg: 'rgba(238, 239, 242, 1)',
+          outlinedBorder: 'rgba(27, 31, 36, 0.15)',
+        },
+        focusVisible: 'rgba(3, 102, 214, 0.3)',
+      },
     },
-    text: {
-        primary: "#fff",
-        secondary: "rgba(255, 255, 255, 0.7)",
-        disabled: "rgba(255, 255, 255, 0.5)"
+  },
+  focus: {
+    default: {
+      outlineWidth: '3px',
     },
-    action:{
-        active: "#fff",
-        hover: "rgba(255, 255, 255, 0.08)",
-        selected: "rgba(255, 255, 255, 0.16)",
-        disabled: "rgba(255, 255, 255, 0.3)",
-        disabledBackground: "rgba(255, 255, 255, 0.12)"
-    },
-    background: {
-        default: "#121212",
-        paper: "#121212"
-    },
-    divider: "rgba(255, 255, 255, 0.12)"
-  }
-};
+  },
+  fontFamily: {
+    body: 'SF Pro Text, var(--gh-fontFamily-fallback)',
+  },
+  components: {
+    JoyCard: {
+      styleOverrides: {
+        root: {
+          "& > div img": {
+            transition: 'transform .25s ease'
+          },
+          "&:hover": {
+            "& > div img": {
+              transform: 'scale(1.25)'
+            }
+          }
+        }
+      }
+    }
+  },
+});
 
-const theme = createTheme(overrides);
-
-export default theme;
+export default gamereqsTheme;

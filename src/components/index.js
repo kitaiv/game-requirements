@@ -1,7 +1,5 @@
-import Header from "./Header";
-import ListGames from "./ListGames";
+import GameCard from "./GameCard";
 
 export {
-    Header,
-    ListGames
+    GameCard,
 }
