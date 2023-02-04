@@ -14,3 +14,11 @@
     display: flex;
 
 }
+
+.burger{
+    position: absolute;
+    top: 30px;
+    left: 36px; 
+    cursor: pointer;
+    /* transition: all 0.5s */
+}

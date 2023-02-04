@@ -4,6 +4,7 @@ import gamereqsTheme from './styles';
 import { GameCard, Header, Main } from './components';
 import { CssVarsProvider } from '@mui/joy';
 import { getTestData } from './api';
+import Menu from './components/UI/Menu';
 
 function App() {
   const [cardsData, setCardsData] = useState([]);
@@ -16,10 +17,11 @@ function App() {
 
   return (
     <CssVarsProvider theme={gamereqsTheme}>
-      <Header />
-      <Main />
-      {cardsData &&
-        cardsData.map((card) => <GameCard key={card.id} cardInfo={card} />)}
+      <Menu />
+      <div id="page-wrap">
+        <Header />
+        <Main games={cardsData}/>
+      </div>
     </CssVarsProvider>
   );
 }

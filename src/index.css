@@ -31,3 +31,12 @@ button{
     border: none;
     padding: 0;
 }
+
+.MuiAutocomplete-listbox{
+    background-color: #0C0A18 !important;
+    color: #cdcdcd;
+}
+
+.MuiAutocomplete-listbox > li{
+    color: #E6E6E6;
+}
