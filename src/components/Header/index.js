@@ -36,14 +36,9 @@ const Header = () => {
           <Logo />
         </Item>
       </Grid>
-      <Grid xs={1} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <Grid xs={2} sx={{display: 'flex', alignItems: 'center', justifyContent: 'end'}}>
         <Item>
           <ChangeLanguage />
-        </Item>
-      </Grid>
-      <Grid xs={1} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        <Item>
-          <Profile />
         </Item>
       </Grid>
       <Grid xs={2} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
