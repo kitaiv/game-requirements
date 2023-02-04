@@ -79,13 +79,15 @@ const gamereqsTheme = extendTheme({
     JoyCard: {
       styleOverrides: {
         root: {
+          boxSizing: 'border-box',
           "& > div img": {
             transition: 'transform .25s ease'
           },
           "&:hover": {
             "& > div img": {
               transform: 'scale(1.25)'
-            }
+            },
+            border: '3px solid rgba(74, 79, 205, 0.50)'
           }
         }
       }
