@@ -1,9 +1,24 @@
-import { CssVarsProvider, extendTheme } from '@mui/joy/styles';
+import { extendTheme } from '@mui/joy/styles';
 
 const gamereqsTheme = extendTheme({
   colorSchemes: {
-    light: {
+    dark: {
       palette: {
+        primary: {
+          50: '#C0CCD9',
+          100: '#A5B8CF',
+          200: '#6A96CA',
+          300: '#4886D0',
+          400: '#2178DD',
+          500: '#096BDE',
+          600: '#1B62B5',
+          700: '#265995',
+          800: '#2F4968',
+          900: '#2F3C4C',
+        },
+        text: {
+          100: "#E6E6E6"
+        },
         success: {
           solidBg: '#2DA44E',
           solidHoverBg: '#2C974B',
@@ -38,6 +53,28 @@ const gamereqsTheme = extendTheme({
             "& > div img": {
               transform: 'scale(1.25)'
             }
+          }
+        }
+      }
+    },
+    JoySheet: {
+      styleOverrides: {
+        root: {
+          backgroundColor: 'inherit'
+        }
+      }
+    },
+    JoyAutocomplete: {
+      styleOverrides: {
+        root: {
+          width: '50%', 
+          margin: '2rem auto',
+          backgroundColor: 'inherit',
+          border: '2px solid rgba(74, 79, 205, 0.43)',
+          color: '#fff',
+          '&:hover': {
+            border: '2px solid rgba(74, 79, 205, 0.43)',
+            color: '#fff'
           }
         }
       }

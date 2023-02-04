@@ -1,30 +1,58 @@
-import {Link} from 'react-router-dom'
-import Container from "@mui/material/Container";
+import { Link } from 'react-router-dom';
+import Container from '@mui/material/Container';
 import styles from './style.module.css';
-import Burger from '../UI/Burger';
-import logo from './images/logo.svg';
 import ChangeLanguage from '../UI/ChangeLanguage';
 import Profile from '../UI/Profile';
 import DonateButton from '../UI/DonateButton';
+import Logo from '../UI/Logo';
+import { styled } from '@mui/joy/styles';
+import { Sheet, Grid, Typography } from '@mui/joy';
 
+const Item = styled(Sheet)(({ theme }) => ({
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.vars.palette.text.tertiary
+}));
 
 const Header = () => {
-    return ( 
-        <header className={styles.header}>
-            <Container maxWidth='xl'>
-                <div className={styles.inner}>
-                    <div>
-                        <Link to="/"><img src={logo} alt="" /></Link>
-                    </div>
-                    <div className={styles.buttons}>
-                        <ChangeLanguage />
-                        <Profile />
-                        <DonateButton />
-                    </div>
-                </div>
-            </Container>
-        </header>
-     );
-}
- 
+  return (
+    <Grid
+      container
+      sx={{
+        flexGrow: 1,
+        paddingTop: '.5rem',
+        paddingBottom: '.5rem',
+        width: '100%',
+        justifyContent: 'space-between',
+        borderBottom: '2px solid #1C1836',
+      }}
+    >
+      <Grid xs={1}>
+        <Item />
+      </Grid>
+      <Grid xs={7}>
+        <Item sx={{ float: 'left' }}>
+          <Logo />
+        </Item>
+      </Grid>
+      <Grid xs={1} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <Item>
+          <ChangeLanguage />
+        </Item>
+      </Grid>
+      <Grid xs={1} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <Item>
+          <Profile />
+        </Item>
+      </Grid>
+      <Grid xs={2} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <Item>
+          <DonateButton />
+        </Item>
+      </Grid>
+    </Grid>
+  );
+};
+
 export default Header;
