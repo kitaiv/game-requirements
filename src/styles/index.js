@@ -4,7 +4,11 @@ const gamereqsTheme = extendTheme({
   colorSchemes: {
     dark: {
       palette: {
+        background: {
+          surface: 'rgba(118, 118, 118, 1)'
+        },
         primary: {
+          solidColor: '#F3FEF5',
           50: '#C0CCD9',
           100: '#A5B8CF',
           200: '#6A96CA',
@@ -33,6 +37,39 @@ const gamereqsTheme = extendTheme({
         focusVisible: 'rgba(3, 102, 214, 0.3)',
       },
     },
+    light: {
+      palette: {
+        primary: {
+          solidColor: '#E9E9E9'
+        },
+        background: {
+          surface: 'inherit',
+          popup: 'rgba(12, 10, 24, 1)'
+        },
+        info: {
+          plainActiveBg: "#000"
+        },
+        neutral: {
+          50: '#C0CCD9',
+          100: '#A5B8CF',
+          200: '#6A96CA',
+          300: '#4886D0',
+          400: '#2178DD',
+          500: '#096BDE',
+          600: '#1B62B5',
+          700: '#265995',
+          800: '#2F4968',
+          900: '#2F3C4C',
+          outlinedBorder: 'rgba(74, 79, 205, 0.43)',
+          outlinedColor: '#e6e6e6',
+
+          //hover effect
+          outlinedHoverColor: null,
+          outlinedHoverBorder: 'rgba(74, 79, 205, 1)',
+          outlinedHoverBg: null
+        },
+      }
+    }
   },
   focus: {
     default: {
@@ -46,13 +83,15 @@ const gamereqsTheme = extendTheme({
     JoyCard: {
       styleOverrides: {
         root: {
+          boxSizing: 'border-box',
           "& > div img": {
             transition: 'transform .25s ease'
           },
           "&:hover": {
             "& > div img": {
               transform: 'scale(1.25)'
-            }
+            },
+            border: '3px solid rgba(74, 79, 205, 0.50)'
           }
         }
       }
@@ -67,8 +106,7 @@ const gamereqsTheme = extendTheme({
     JoyAutocomplete: {
       styleOverrides: {
         root: {
-          width: '50%', 
-          margin: '2rem auto',
+          width: '100%',
           backgroundColor: 'inherit',
           border: '2px solid rgba(74, 79, 205, 0.43)',
           color: '#fff',
@@ -76,6 +114,16 @@ const gamereqsTheme = extendTheme({
             border: '2px solid rgba(74, 79, 205, 0.43)',
             color: '#fff'
           }
+        }
+      }
+    },
+    JoyChip: {
+      styleOverrides: {
+        root: {
+          '& > button': {
+            backgroundColor: 'transparent'
+          },
+          border: '2px solid rgba(74, 79, 205, 0.5)'
         }
       }
     }
