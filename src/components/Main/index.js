@@ -1,3 +1,4 @@
+import React , {useState} from 'react'
 import { Sheet, Grid } from '@mui/joy';
 import { styled } from '@mui/joy/styles';
 import GamesList from '../GamesList';
@@ -12,12 +13,22 @@ const Item = styled(Sheet)(({ theme }) => ({
 }));
 
 const Main = ({games}) => {
+
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+    // Perform the actual search here
+  };
+
+  const _searchTags = ['Counter Strike: Global Offensive', 'Dota 2'] //convert to array of objects with slug
+
   return (
     <main>
       <Grid container sx={{ flexGrow: 1 }}>
         <Grid xs={12}>
           <Item>
-            <Search />
+            <Search handleSearch={handleSearch} quickTags={_searchTags}/>
             <GamesList games={games ?? []}/>
           </Item>
         </Grid>

@@ -4,218 +4,7 @@
   "previous": "url",
   "results": [
     {
-        "id": 340,
-        "slug": "kami-2",
-        "name": "KAMI 2",
-        "name_original": "KAMI 2",
-        "description": "<p>Sequel to #1 puzzle game, KAMI<br />\nThe calming yet addictive puzzle game is back!<br />\nWith over 100 hand-crafted puzzles, Kami 2 takes you on a mind-twisting journey that combines logic and problem-solving.<br />\nCan you achieve perfection?<br />\nFlood each puzzle with a single color in as few moves as possible to claim a &#39;Perfect&#39; sticker. But watch out for subtle new tricks and fiendish surprises.<br />\nWant even more?<br />\nBeat the global Daily Challenge, earn a winning streak and compare your scores to other players. Test yourself on thousands of user-generated puzzles, uploaded daily.<br />\nGet creative and take on the world.<br />\nCraft your own KAMI designs using the Puzzle Builder. Design and share your creations, send them to your friends and challenge the world to beat your score.</p>",
-        "metacritic": 79,
-        "metacritic_platforms": [],
-        "released": "2017-03-29",
-        "tba": false,
-        "updated": "2022-11-11T12:43:25",
-        "background_image": "https://media.rawg.io/media/screenshots/936/9361f98f35e638aa11ec2716df5b990c.jpg",
-        "background_image_additional": "https://media.rawg.io/media/screenshots/81b/81be581d93a4117a1bd85b6f25765116_F3Ng0B9.jpg",
-        "website": "http://www.kamipuzzle.com",
-        "rating": 4.18,
-        "rating_top": 4,
-        "ratings": [
-            {
-                "id": 4,
-                "title": "recommended",
-                "count": 9,
-                "percent": 81.82
-            },
-            {
-                "id": 5,
-                "title": "exceptional",
-                "count": 2,
-                "percent": 18.18
-            }
-        ],
-        "reactions": null,
-        "added": 18,
-        "added_by_status": {
-            "yet": 2,
-            "owned": 2,
-            "beaten": 7,
-            "toplay": 2,
-            "dropped": 3,
-            "playing": 2
-        },
-        "playtime": 0,
-        "screenshots_count": 15,
-        "movies_count": 0,
-        "creators_count": 0,
-        "achievements_count": 0,
-        "parent_achievements_count": 0,
-        "reddit_url": "",
-        "reddit_name": "",
-        "reddit_description": "",
-        "reddit_logo": "",
-        "reddit_count": 0,
-        "twitch_count": 0,
-        "youtube_count": 0,
-        "reviews_text_count": 0,
-        "ratings_count": 11,
-        "suggestions_count": 82,
-        "alternative_names": [],
-        "metacritic_url": "",
-        "parents_count": 0,
-        "additions_count": 0,
-        "game_series_count": 0,
-        "user_game": null,
-        "reviews_count": 11,
-        "saturated_color": "0f0f0f",
-        "dominant_color": "0f0f0f",
-        "parent_platforms": [
-            {
-                "platform": {
-                    "id": 4,
-                    "name": "iOS",
-                    "slug": "ios"
-                }
-            },
-            {
-                "platform": {
-                    "id": 8,
-                    "name": "Android",
-                    "slug": "android"
-                }
-            }
-        ],
-        "platforms": [
-            {
-                "platform": {
-                    "id": 21,
-                    "name": "Android",
-                    "slug": "android",
-                    "image": null,
-                    "year_end": null,
-                    "year_start": null,
-                    "games_count": 52498,
-                    "image_background": "https://media.rawg.io/media/games/daa/daaee07fcb40744d90cf8142f94a241f.jpg"
-                },
-                "released_at": "2017-03-29",
-                "requirements": {}
-            },
-            {
-                "platform": {
-                    "id": 3,
-                    "name": "iOS",
-                    "slug": "ios",
-                    "image": null,
-                    "year_end": null,
-                    "year_start": null,
-                    "games_count": 75962,
-                    "image_background": "https://media.rawg.io/media/games/410/41033a495ce8f7fd4b0934bdb975f12a.jpg"
-                },
-                "released_at": "2017-03-29",
-                "requirements": {
-                    "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
-                }
-            }
-        ],
-        "stores": [
-            {
-                "id": 342,
-                "url": "",
-                "store": {
-                    "id": 4,
-                    "name": "App Store",
-                    "slug": "apple-appstore",
-                    "domain": "apps.apple.com",
-                    "games_count": 74250,
-                    "image_background": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
-                }
-            },
-            {
-                "id": 747745,
-                "url": "",
-                "store": {
-                    "id": 8,
-                    "name": "Google Play",
-                    "slug": "google-play",
-                    "domain": "play.google.com",
-                    "games_count": 16933,
-                    "image_background": "https://media.rawg.io/media/games/d4b/d4bcd78873edd9992d93aff9cc8db0c8.jpg"
-                }
-            }
-        ],
-        "developers": [
-            {
-                "id": 230,
-                "name": "State of Play Games",
-                "slug": "state-of-play-games",
-                "games_count": 8,
-                "image_background": "https://media.rawg.io/media/screenshots/988/988fd70f9c1d84907f4f9f7cfe8db690.jpg"
-            }
-        ],
-        "genres": [
-            {
-                "id": 28,
-                "name": "Board Games",
-                "slug": "board-games",
-                "games_count": 8229,
-                "image_background": "https://media.rawg.io/media/screenshots/6c6/6c6e0394aedf0f5d00dacbe13a0f750c.jpg"
-            },
-            {
-                "id": 7,
-                "name": "Puzzle",
-                "slug": "puzzle",
-                "games_count": 95053,
-                "image_background": "https://media.rawg.io/media/games/2e1/2e187b31e5cee21c110bd16798d75fab.jpg"
-            }
-        ],
-        "tags": [
-            {
-                "id": 1867,
-                "name": "puzzles",
-                "slug": "puzzles",
-                "language": "eng",
-                "games_count": 8570,
-                "image_background": "https://media.rawg.io/media/games/de6/de66bc4c72b45c3bb906c85d0628112d.jpg"
-            },
-            {
-                "id": 744,
-                "name": "friends",
-                "slug": "friends",
-                "language": "eng",
-                "games_count": 14958,
-                "image_background": "https://media.rawg.io/media/games/825/82575be8cc9ea947a10dbdfd45c3b4d8.jpg"
-            },
-            {
-                "id": 1863,
-                "name": "challenge",
-                "slug": "challenge",
-                "language": "eng",
-                "games_count": 12540,
-                "image_background": "https://media.rawg.io/media/games/201/201feb4db3118c1440ebdce03e61e3fb.jpg"
-            },
-            {
-                "id": 3189,
-                "name": "color",
-                "slug": "color",
-                "language": "eng",
-                "games_count": 6372,
-                "image_background": "https://media.rawg.io/media/screenshots/51d/51dd944987e4efb74b4bfd9cf0999d40.jpg"
-            }
-        ],
-        "publishers": [
-            {
-                "id": 8185,
-                "name": "State of Play Games",
-                "slug": "state-of-play-games",
-                "games_count": 8,
-                "image_background": "https://media.rawg.io/media/screenshots/9a0/9a06a58737f0053f2c591dcadc50d9f0.jpg"
-            }
-        ],
-        "esrb_rating": null,
-        "clip": null,
-        "description_raw": "Sequel to #1 puzzle game, KAMI\nThe calming yet addictive puzzle game is back!\nWith over 100 hand-crafted puzzles, Kami 2 takes you on a mind-twisting journey that combines logic and problem-solving.\nCan you achieve perfection?\nFlood each puzzle with a single color in as few moves as possible to claim a 'Perfect' sticker. But watch out for subtle new tricks and fiendish surprises.\nWant even more?\nBeat the global Daily Challenge, earn a winning streak and compare your scores to other players. Test yourself on thousands of user-generated puzzles, uploaded daily.\nGet creative and take on the world.\nCraft your own KAMI designs using the Puzzle Builder. Design and share your creations, send them to your friends and challenge the world to beat your score."
-    },
-    {
-        "id": 693,
+        "id": 701,
         "slug": "the-last-guardian",
         "name": "The Last Guardian",
         "name_original": "The Last Guardian",
@@ -699,7 +488,7 @@
         "description_raw": "The Last Guardian is a brainchild of Fumito Ueda, who also created Shadow of the Colossus. The game spent almost a decade in development before it was complete. The Last Guardian is defined by its spectacular mountain landscapes, eerie music, and a heartwarming mood.\nThe main protagonist is a nameless boy, who is kept as a prisoner in cyclopean castle ruins and has to escape. While in captivity, the boy’s first task is to befriends his cellmate, a fantasy creature named Trico, who is a gigantic half-bird, half-cat hybrid that slightly reminds a hippogriff. Trico is the second main character and the mascot of The Last Guardian; the creature’s animation is incredibly detailed, and its behavior is modeled after real animals. The two form an unlikely symbiosis. The boy needs the creature’s strength and ability to fly to overcome obstacles and fend off guards who try to bring the characters back to their cells. Trico, in turn, needs the boy’s wits and agility to sneak, solve puzzles, feed the creature and heal its wounds. The player only controls the boy, while Trico needs to be manipulated into performing certain actions. Over time, the characters develop a strong emotional bond that adds to the game’s impact on the player."
     },
     {
-        "id": 693,
+        "id": 694,
         "slug": "the-last-guardian",
         "name": "The Last Guardian",
         "name_original": "The Last Guardian",
@@ -941,7 +730,7 @@
         "description_raw": "The Last Guardian is a brainchild of Fumito Ueda, who also created Shadow of the Colossus. The game spent almost a decade in development before it was complete. The Last Guardian is defined by its spectacular mountain landscapes, eerie music, and a heartwarming mood.\nThe main protagonist is a nameless boy, who is kept as a prisoner in cyclopean castle ruins and has to escape. While in captivity, the boy’s first task is to befriends his cellmate, a fantasy creature named Trico, who is a gigantic half-bird, half-cat hybrid that slightly reminds a hippogriff. Trico is the second main character and the mascot of The Last Guardian; the creature’s animation is incredibly detailed, and its behavior is modeled after real animals. The two form an unlikely symbiosis. The boy needs the creature’s strength and ability to fly to overcome obstacles and fend off guards who try to bring the characters back to their cells. Trico, in turn, needs the boy’s wits and agility to sneak, solve puzzles, feed the creature and heal its wounds. The player only controls the boy, while Trico needs to be manipulated into performing certain actions. Over time, the characters develop a strong emotional bond that adds to the game’s impact on the player."
     },
     {
-        "id": 693,
+        "id": 695,
         "slug": "the-last-guardian",
         "name": "The Last Guardian",
         "name_original": "The Last Guardian",
@@ -1183,7 +972,249 @@
         "description_raw": "The Last Guardian is a brainchild of Fumito Ueda, who also created Shadow of the Colossus. The game spent almost a decade in development before it was complete. The Last Guardian is defined by its spectacular mountain landscapes, eerie music, and a heartwarming mood.\nThe main protagonist is a nameless boy, who is kept as a prisoner in cyclopean castle ruins and has to escape. While in captivity, the boy’s first task is to befriends his cellmate, a fantasy creature named Trico, who is a gigantic half-bird, half-cat hybrid that slightly reminds a hippogriff. Trico is the second main character and the mascot of The Last Guardian; the creature’s animation is incredibly detailed, and its behavior is modeled after real animals. The two form an unlikely symbiosis. The boy needs the creature’s strength and ability to fly to overcome obstacles and fend off guards who try to bring the characters back to their cells. Trico, in turn, needs the boy’s wits and agility to sneak, solve puzzles, feed the creature and heal its wounds. The player only controls the boy, while Trico needs to be manipulated into performing certain actions. Over time, the characters develop a strong emotional bond that adds to the game’s impact on the player."
     },
     {
-        "id": 693,
+        "id": 696,
+        "slug": "the-last-guardian",
+        "name": "The Last Guardian",
+        "name_original": "The Last Guardian",
+        "description": "<p>The Last Guardian is a brainchild of Fumito Ueda, who also created Shadow of the Colossus. The game spent almost a decade in development before it was complete. The Last Guardian is defined by its spectacular mountain landscapes, eerie music, and a heartwarming mood.<br />\nThe main protagonist is a nameless boy, who is kept as a prisoner in cyclopean castle ruins and has to escape. While in captivity, the boy’s first task is to befriends his cellmate, a fantasy creature named Trico, who is a gigantic half-bird, half-cat hybrid that slightly reminds a hippogriff. Trico is the second main character and the mascot of The Last Guardian; the creature’s animation is incredibly detailed, and its behavior is modeled after real animals. The two form an unlikely symbiosis. The boy needs the creature’s strength and ability to fly to overcome obstacles and fend off guards who try to bring the characters back to their cells. Trico, in turn, needs the boy’s wits and agility to sneak, solve puzzles, feed the creature and heal its wounds. The player only controls the boy, while Trico needs to be manipulated into performing certain actions. Over time, the characters develop a strong emotional bond that adds to the game’s impact on the player.</p>",
+        "metacritic": 82,
+        "metacritic_platforms": [],
+        "released": "2016-10-25",
+        "tba": false,
+        "updated": "2023-01-05T03:30:32",
+        "background_image": "https://media.rawg.io/media/games/276/2769b1982cd132a60c69dc5d574445fa.jpg",
+        "background_image_additional": "https://media.rawg.io/media/screenshots/775/77524f2aaa2e19438281e76c18cba234.jpg",
+        "website": "http://www.gendesign.co.jp/E_index.html",
+        "rating": 4.08,
+        "rating_top": 5,
+        "ratings": [
+            {
+                "id": 5,
+                "title": "exceptional",
+                "count": 271,
+                "percent": 39.91
+            },
+            {
+                "id": 4,
+                "title": "recommended",
+                "count": 253,
+                "percent": 37.26
+            },
+            {
+                "id": 3,
+                "title": "meh",
+                "count": 124,
+                "percent": 18.26
+            },
+            {
+                "id": 1,
+                "title": "skip",
+                "count": 31,
+                "percent": 4.57
+            }
+        ],
+        "reactions": {
+            "2": 1,
+            "3": 1,
+            "7": 1,
+            "9": 1,
+            "10": 1,
+            "13": 1,
+            "14": 1,
+            "16": 1,
+            "19": 1
+        },
+        "added": 2887,
+        "added_by_status": {
+            "yet": 230,
+            "owned": 1627,
+            "beaten": 504,
+            "toplay": 306,
+            "dropped": 150,
+            "playing": 70
+        },
+        "playtime": 7,
+        "screenshots_count": 10,
+        "movies_count": 0,
+        "creators_count": 6,
+        "achievements_count": 144,
+        "parent_achievements_count": 24,
+        "reddit_url": "https://www.reddit.com/r/thelastguardian/",
+        "reddit_name": "The Last Guardian",
+        "reddit_description": "Official subreddit of \"The Last Guardian\", the long-awaited video game from genDESIGN and Team Ico for the PS4.",
+        "reddit_logo": "https://b.thumbs.redditmedia.com/EUTKzXw8hiIhD6AgpI3OfLiOOI3Uwqq1OSiO92cgFQk.png",
+        "reddit_count": 500,
+        "twitch_count": 124,
+        "youtube_count": 1000000,
+        "reviews_text_count": 4,
+        "ratings_count": 675,
+        "suggestions_count": 525,
+        "alternative_names": [
+            "TLG"
+        ],
+        "metacritic_url": "",
+        "parents_count": 1,
+        "additions_count": 0,
+        "game_series_count": 6,
+        "user_game": null,
+        "reviews_count": 679,
+        "saturated_color": "0f0f0f",
+        "dominant_color": "0f0f0f",
+        "parent_platforms": [
+            {
+                "platform": {
+                    "id": 2,
+                    "name": "PlayStation",
+                    "slug": "playstation"
+                }
+            }
+        ],
+        "platforms": [
+            {
+                "platform": {
+                    "id": 18,
+                    "name": "PlayStation 4",
+                    "slug": "playstation4",
+                    "image": null,
+                    "year_end": null,
+                    "year_start": null,
+                    "games_count": 6530,
+                    "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+                },
+                "released_at": "2016-10-25",
+                "requirements": {}
+            }
+        ],
+        "stores": [
+            {
+                "id": 700,
+                "url": "",
+                "store": {
+                    "id": 3,
+                    "name": "PlayStation Store",
+                    "slug": "playstation-store",
+                    "domain": "store.playstation.com",
+                    "games_count": 7787,
+                    "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                }
+            }
+        ],
+        "developers": [
+            {
+                "id": 6,
+                "name": "Sony Interactive Entertainment",
+                "slug": "sony-interactive-entertainment",
+                "games_count": 611,
+                "image_background": "https://media.rawg.io/media/games/276/2769b1982cd132a60c69dc5d574445fa.jpg"
+            },
+            {
+                "id": 26191,
+                "name": "SIE Japan Studio",
+                "slug": "sie-japan-studio",
+                "games_count": 9,
+                "image_background": "https://media.rawg.io/media/screenshots/4f9/4f9ccda7f9644b3a8d4af06b12e92710.jpg"
+            },
+            {
+                "id": 19032,
+                "name": "Team Ico",
+                "slug": "team-ico",
+                "games_count": 4,
+                "image_background": "https://media.rawg.io/media/games/276/2769b1982cd132a60c69dc5d574445fa.jpg"
+            }
+        ],
+        "genres": [
+            {
+                "id": 4,
+                "name": "Action",
+                "slug": "action",
+                "games_count": 168167,
+                "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Adventure",
+                "slug": "adventure",
+                "games_count": 128587,
+                "image_background": "https://media.rawg.io/media/games/e2d/e2d3f396b16dded0f841c17c9799a882.jpg"
+            }
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "Atmospheric",
+                "slug": "atmospheric",
+                "language": "eng",
+                "games_count": 26601,
+                "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+            },
+            {
+                "id": 69,
+                "name": "Action-Adventure",
+                "slug": "action-adventure",
+                "language": "eng",
+                "games_count": 12691,
+                "image_background": "https://media.rawg.io/media/games/d30/d30ef0c7dd4878161b1f781e297ae6a0.jpg"
+            },
+            {
+                "id": 37796,
+                "name": "exclusive",
+                "slug": "exclusive",
+                "language": "eng",
+                "games_count": 4512,
+                "image_background": "https://media.rawg.io/media/games/1f5/1f5ddf7199f2778ff83663b93b5cb330.jpg"
+            },
+            {
+                "id": 88,
+                "name": "Cute",
+                "slug": "cute",
+                "language": "eng",
+                "games_count": 26948,
+                "image_background": "https://media.rawg.io/media/games/3e3/3e355e1b8a5ee47f4c76e28e3055236d.jpg"
+            },
+            {
+                "id": 37797,
+                "name": "true exclusive",
+                "slug": "true-exclusive",
+                "language": "eng",
+                "games_count": 3995,
+                "image_background": "https://media.rawg.io/media/screenshots/bb7/bb71799efe642c69f28c92c835a1257d.jpg"
+            },
+            {
+                "id": 478,
+                "name": "3rd-Person Perspective",
+                "slug": "3rd-person-perspective",
+                "language": "eng",
+                "games_count": 86,
+                "image_background": "https://media.rawg.io/media/games/de6/de66bc4c72b45c3bb906c85d0628112d.jpg"
+            },
+            {
+                "id": 209,
+                "name": "Drama",
+                "slug": "drama",
+                "language": "eng",
+                "games_count": 2339,
+                "image_background": "https://media.rawg.io/media/games/b28/b28a135fa6133e17b228f46902a4fda4.jpg"
+            }
+        ],
+        "publishers": [
+            {
+                "id": 10212,
+                "name": "Sony Computer Entertainment",
+                "slug": "sony-computer-entertainment",
+                "games_count": 493,
+                "image_background": "https://media.rawg.io/media/games/4b6/4b67558bf04c7211aabeff179271bdd8.jpg"
+            }
+        ],
+        "esrb_rating": {
+            "id": 3,
+            "name": "Teen",
+            "slug": "teen"
+        },
+        "clip": null,
+        "description_raw": "The Last Guardian is a brainchild of Fumito Ueda, who also created Shadow of the Colossus. The game spent almost a decade in development before it was complete. The Last Guardian is defined by its spectacular mountain landscapes, eerie music, and a heartwarming mood.\nThe main protagonist is a nameless boy, who is kept as a prisoner in cyclopean castle ruins and has to escape. While in captivity, the boy’s first task is to befriends his cellmate, a fantasy creature named Trico, who is a gigantic half-bird, half-cat hybrid that slightly reminds a hippogriff. Trico is the second main character and the mascot of The Last Guardian; the creature’s animation is incredibly detailed, and its behavior is modeled after real animals. The two form an unlikely symbiosis. The boy needs the creature’s strength and ability to fly to overcome obstacles and fend off guards who try to bring the characters back to their cells. Trico, in turn, needs the boy’s wits and agility to sneak, solve puzzles, feed the creature and heal its wounds. The player only controls the boy, while Trico needs to be manipulated into performing certain actions. Over time, the characters develop a strong emotional bond that adds to the game’s impact on the player."
+    },
+    {
+        "id": 697,
         "slug": "the-last-guardian",
         "name": "The Last Guardian",
         "name_original": "The Last Guardian",

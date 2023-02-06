@@ -3,10 +3,12 @@ import Container from '@mui/material/Container';
 import styles from './style.module.css';
 import ChangeLanguage from '../UI/ChangeLanguage';
 import Profile from '../UI/Profile';
-import DonateButton from '../UI/DonateButton';
+import CustomButton from '../UI/CustomButton';
 import Logo from '../UI/Logo';
 import { styled } from '@mui/joy/styles';
 import { Sheet, Grid, Typography } from '@mui/joy';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+
 
 const Item = styled(Sheet)(({ theme }) => ({
   ...theme.typography.body2,
@@ -43,7 +45,7 @@ const Header = () => {
       </Grid>
       <Grid xs={2} sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
         <Item>
-          <DonateButton />
+          <CustomButton text='Donate' textStyles={{marginLeft: '.5rem'}} icon={<VolunteerActivismIcon />} />
         </Item>
       </Grid>
     </Grid>

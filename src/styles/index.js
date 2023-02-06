@@ -8,6 +8,7 @@ const gamereqsTheme = extendTheme({
           surface: 'rgba(118, 118, 118, 1)'
         },
         primary: {
+          solidColor: '#F3FEF5',
           50: '#C0CCD9',
           100: '#A5B8CF',
           200: '#6A96CA',
@@ -38,6 +39,9 @@ const gamereqsTheme = extendTheme({
     },
     light: {
       palette: {
+        primary: {
+          solidColor: '#E9E9E9'
+        },
         background: {
           surface: 'inherit',
           popup: 'rgba(12, 10, 24, 1)'
@@ -102,8 +106,7 @@ const gamereqsTheme = extendTheme({
     JoyAutocomplete: {
       styleOverrides: {
         root: {
-          width: '50%', 
-          margin: '2rem auto',
+          width: '100%',
           backgroundColor: 'inherit',
           border: '2px solid rgba(74, 79, 205, 0.43)',
           color: '#fff',
@@ -114,6 +117,16 @@ const gamereqsTheme = extendTheme({
         }
       }
     },
+    JoyChip: {
+      styleOverrides: {
+        root: {
+          '& > button': {
+            backgroundColor: 'transparent'
+          },
+          border: '2px solid rgba(74, 79, 205, 0.5)'
+        }
+      }
+    }
   },
 });
 
