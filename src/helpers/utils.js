@@ -1,8 +1,5 @@
 export function validateGenres(genres) {
-    let str = '';
-    const genresNames = genres.map(({ name }) => name);
-    str = genresNames.join(', ');
-    return str;
+    return genres.reduce((str, { name }) => str + name + ', ', '').slice(0, -2);
 }
 
 export function validateGameWebsiteUrl(url){
@@ -10,12 +7,7 @@ export function validateGameWebsiteUrl(url){
 }
 
 export function removeHtmlTagsFromText(str) {
-    if ((str === null) || (str === ''))
-        return false;
-    else
-        str = str.toString();
-        
-    return str.replace( /(<([^>]+)>)/ig, '');
+    return str.toString().replace(/(<([^>]+)>)/ig, '');
 }
 
 export function validateDate(date){

@@ -1,42 +1,69 @@
 #root,
-html{
-    background-color: #0C0A18 !important;
-    font-family: 'Gilroy';
+html {
+  background-color: #0c0a18 !important;
+  font-family: 'Gilroy';
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy"),
-        url("./fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
-    font-weight: 700;
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url('./fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy"),
-        url("./fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
-    font-weight: 500;
+  font-family: 'Gilroy';
+  src: local('Gilroy'),
+    url('./fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy"),
-        url("./fonts/Gilroy/Gilroy-Light.ttf") format("truetype");
-    font-weight: 300;
+  font-family: 'Gilroy';
+  src: local('Gilroy'),
+    url('./fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
 }
 
-
-button{
-    background: transparent;
-    border: none;
-    padding: 0;
+button {
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
-.MuiAutocomplete-listbox{
-    background-color: #0C0A18 !important;
-    color: #cdcdcd;
+.MuiAutocomplete-listbox {
+  background-color: #0c0a18 !important;
+  color: #cdcdcd;
 }
 
-.MuiAutocomplete-listbox > li{
-    color: #E6E6E6;
+.MuiAutocomplete-listbox > li {
+  color: #e6e6e6;
+}
+
+/* Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333333;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #666666;
+}
+
+/* Firefox */
+scrollbar-width: thin;
+scrollbar-color: #666666 #333333;
+
+/* IE & Edge */
+-ms-overflow-style: none;
+
+body::-webkit-scrollbar {
+  width: 0.2em;
+  background-color: #333;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
 }
